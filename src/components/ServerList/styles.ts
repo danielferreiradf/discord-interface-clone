@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-color: ${(props) => props.theme.colors.tertiary};
   padding: 11px 0;
 
-  max-height: 100vh;
+  max-height: 100%;
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
