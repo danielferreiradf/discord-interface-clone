@@ -1,7 +1,14 @@
 import React from "react";
 
-const index = () => {
-  return <div></div>;
+import { Grid } from "./styles";
+import ServerList from "../ServerList";
+
+const Layout: React.FC = () => {
+  return (
+    <Grid>
+      <ServerList />
+    </Grid>
+  );
 };
 
-export default index;
+export default Layout;
